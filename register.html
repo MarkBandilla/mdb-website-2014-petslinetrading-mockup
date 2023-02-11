@@ -8,10 +8,10 @@
 	<div class="wrapper">
 		<div id="header">
 			<div class="main">
-				<a href="home.htm"><img class="left" src="img/logo.png" /></a>
+				<a href="home.html"><img class="left" src="img/logo.png" /></a>
 				<div class="right">
 					<div class="right cart">
-						<p class="right">Welcome Guest! <a href="signin.htm">log-in</a> / <a href="register.htm">register</a></p><div class="clear"></div>
+						<p class="right">Welcome Guest! <a href="signin.html">log-in</a> / <a href="register.html">register</a></p><div class="clear"></div>
 						<img src="img/icon-cart.png" /> Shopping Cart: <a href="">2 items - 52.35 AED <img src="img/arrow-down-black-small.png" /></a>
 					</div><!-- cart -->
 					<div class="clear"></div>
@@ -24,11 +24,11 @@
 					<p>SHOP BY CATEGORY <span class="right"><img src="img/arrow-down-white-small.png" /></span></p>
 				</a><!-- btn_category -->
 				<ul class="left">
-					<li><a href="home.htm" style="border-left: none;">HOME</a></li>
-					<li><a href="signin.htm">SIGN-IN</a></li>
-					<li><a href="register.htm" >REGISTER</a></li>
-					<li><a href="account.htm">MY FAVORITES</a></li>
-					<li><a href="contact.htm">CONTACT US</a></li>
+					<li><a href="home.html" style="border-left: none;">HOME</a></li>
+					<li><a href="signin.html">SIGN-IN</a></li>
+					<li><a href="register.html" class="markdark">REGISTER</a></li>
+					<li><a href="account.html">MY FAVORITES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
 					<form id="quicksearch" class="right">
 						<input type="text" placeholder="Product Search" required/>
@@ -54,8 +54,8 @@
 				<div class="panel box">
 					<h3 class="bgdark">Shopping Cart<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
 					<ul id="cart">
-						<li class="item"><a href="" class="cold">1x Royal Canin</a><span>12.35 AED <a href=""><img src="img/x.png" /></a></span></li>
-						<li class="item"><a href="" class="cold">1x Product 2</a><span>33.00 AED <a href=""><img src="img/x.png" /></a></span></li>
+						<li class="item"><a href="details.html" class="cold">1x Royal Canin</a><span>12.35 AED <a href=""><img src="img/x.png" /></a></span></li>
+						<li class="item"><a href="details.html" class="cold">1x Product 2</a><span>33.00 AED <a href=""><img src="img/x.png" /></a></span></li>
 						<li></li>
 						<li class="white">Shipping<span>7.00 AED</span></li>
 						<li></li>
@@ -88,71 +88,39 @@
 			</div><!-- sidebar -->
 			<div class="main right">
 				<div class="breadcrums">
-					<p><img src="img/icon-home.png" /> <a href="home.htm" class="cold">Home</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> Shopping Cart</p>
+					<p class="dim"><a href="home.html"><img src="img/icon-home.png" /> Home</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> Register</p>
 				</div><!-- breadcrums -->
 				<div class="preview" style="height: 33px">
-					<h3 class="bgcold">Shopping Cart</h3>
+					<h3 class="bgcold">Create New Account</h3>
 				</div><!-- -->
-				<div id="details" class="box blockwide left">
-					<table class="shoppingcart">
-						<thead>
-							<td colspan=2>Product</td>
-							<td>Variant</td>
-							<td>Quantity</td>
-							<td>Price</td>
-							<td colspan=2>Sub Total</td>
-						</thead>
-						<tbody>
-							<td><img src="img/uploads/product-thumb.png" width=40%/></td>
-							<td><a href=""><b>Maxi Adult</b></a></td>
-							<td>
-								<select>
-									<option>4kg - 110.00 AED</option>
-									<option class="hot">10kg - 230.00 AED - out of stock</option>
-									<option>15kg - 315.00 AED</option>
-								</select>
-							</td>
-							<td><input type="number" value=1 /></td>
-							<td><b>110.00 AED</b></td>
-							<td><b class="warm">110.00 AED</b></td>
-							<td><a href=""><img src="img/x.png" /></a></td>
-						</tbody>
-						<tbody>
-							<td><img src="img/uploads/product-thumb.png" width=40%/></td>
-							<td><a href=""><b>Maxi Adult<b></a></td>
-							<td>
-								<select>
-									<option>4kg - 110.00 AED</option>
-									<option class="hot">10kg - 230.00 AED - out of stock</option>
-									<option selected>15kg - 315.00 AED</option>
-								</select>
-							</td>
-							<td><input type="number" value=1 /></td>
-							<td><b>110.00 AED</b></td>
-							<td><b class="warm">110.00 AED</b></td>
-							<td><a href=""><img src="img/x.png" /></a></td>
-						</tbody>
-						<tbody>
-							<td colspan=4></td>
-							<td>Shipping:</td>
-							<td colspan=2><b class="warm strike">20.00 AED</b></td>
-						</tbody>
-						<tbody>
-							<td colspan=4></td>
-							<td><b>Total</b></td>
-							<td colspan=2><h1 class="cold">220.00 AED</h1></td>
-						</tbody>
-						<tbody>
-							<td colspan=4></td>
-							<td><b>5% Disc.</b></td>
-							<td colspan=2 class="strike">114.00 AED</td>
-						</tbody>
-					</table>
-					<br>
-					<button class="bgcold left">Continue Shopping</button>
-					<button class="bgwarm right">Go to CHECK OUT</button>
-				</div><!-- details -->
-				
+				<div id="sign-in" class="box blockwide left">
+					<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">New Member's Registration Form</h3><br>
+					<p>Please fill-up the form bellow to Register.</p><br>
+					<form>
+					<div class="blockpress left">
+						<label>*Name:</label><br>
+						<input type="text" required/><br>
+						<label>*Mobile number:</label><br>
+						<input type="text" required/><br>
+						<label>*Landline number:</label><br>
+						<input type="text" required/><br>
+						<label>*Address:</label><br>
+						<input type="text" required/><br><br>
+						<label>*Email Address:</label><br>
+						<input type="text" required/><br>
+						<label>*Password:</label><br>
+						<input type="text" required/><br><br><br>
+						<button class="bgcold"><img src="img/icon-lock.png" style="padding: 0px; margin:0px; "/> Submit</button><br><br>
+					</div><!-- right -->
+					<div class="blockpress right">
+						<div class="scrolly" style="width: 350px; height: 390px; margin-left: -30px;">
+							<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">What information do we need?</h3><br>
+							<p class="dark quote">We need information from you when you register on our site or fill out form.<br><br>When ordering on our site, you are required to enter your mobile number & password to proceed on order process.</p><br>
+							<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Why do we use your information for?</h3><br>
+							<p class="dark quote">Any of the information we collect from you may be used in one of the following ways.<br><br>1.Your information helps us to be better respond to your individual needs.<br><br>2.To improve our website offering based on the information and feedback we receive from you.<br><br>3.To improve our customer service with an effective respond, hear about your support needs and attend your queries which you may not find to others.<br><br>4.To process transaction in our peak level of service. Your information is highly protected by us and keeps as data base reference to improve our business structure and culture. Hence, your information will store safe in our system, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the ordered product or service requested by the customer.<br><br>5.Your email address you provide may be used to send information and updates pertaining to your order , in addition to receive occasional company news, pet event in UAE, related product or service information, etc.<br><br></p><br>
+						</div><!-- scrolly --><br>
+					</form>
+				</div><!-- sign-in -->
 				
 				<div class="clear"></div>
 			</div><!-- main right -->
@@ -187,7 +155,7 @@
 				</ul><!-- list -->
 				<ul class="list">
 					<h3 class="warm">Newsletter Signup</h3>
-					<li><p>Please enter your email adress below. Don’t worry, we won’t spam you</p></li>
+					<li><p>Please enter your email adress below. Donï¿½t worry, we wonï¿½t spam you</p></li>
 					<form id="quicksearch" class="right" style="margin-left: -5px";>
 						<input type="text" placeholder="Email Address" required style="width: 377px;"/>
 						<button type="submit" style="background: black; width: 80px; color:white;">Subscribe</button>

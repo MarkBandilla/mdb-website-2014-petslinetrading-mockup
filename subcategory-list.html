@@ -3,22 +3,15 @@
 <head>
 	<title>petslinetrading.com</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script>
-	$(function(){
-		$('#banner img:gt(0)').hide();
-		setInterval(function(){$('#banner :first-child').fadeOut().next('img').fadeIn().end().appendTo('#banner');}, 4000);
-	});
-	</script>
 </head>
 <body>
 	<div class="wrapper">
 		<div id="header">
 			<div class="main">
-				<a href="home.htm"><img class="left" src="img/logo.png" /></a>
+				<a href="home.html"><img class="left" src="img/logo.png" /></a>
 				<div class="right">
 					<div class="right cart">
-						<p class="right">Welcome Guest! <a href="signin.htm">log-in</a> / <a href="register.htm">register</a></p><div class="clear"></div>
+						<p class="right">Welcome Guest! <a href="signin.html">log-in</a> / <a href="register.html">register</a></p><div class="clear"></div>
 						<img src="img/icon-cart.png" /> Shopping Cart: <a href="">2 items - 52.35 AED <img src="img/arrow-down-black-small.png" /></a>
 					</div><!-- cart -->
 					<div class="clear"></div>
@@ -31,11 +24,11 @@
 					<p>SHOP BY CATEGORY <span class="right"><img src="img/arrow-down-white-small.png" /></span></p>
 				</a><!-- btn_category -->
 				<ul class="left">
-					<li><a href="home.htm" style="border-left: none;" class="markdark">HOME</a></li>
-					<li><a href="signin.htm">SIGN-IN</a></li>
-					<li><a href="register.htm">REGISTER</a></li>
-					<li><a href="account.htm">MY FAVORITES</a></li>
-					<li><a href="contact.htm">CONTACT US</a></li>
+					<li><a href="home.html" style="border-left: none;">HOME</a></li>
+					<li><a href="signin.html">SIGN-IN</a></li>
+					<li><a href="register.html" >REGISTER</a></li>
+					<li><a href="account.html">MY FAVORITES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
 					<form id="quicksearch" class="right">
 						<input type="text" placeholder="Product Search" required/>
@@ -45,110 +38,58 @@
 		</div><!-- header -->
 		<div id="content">
 			<div id="sidebar" class="left">
-				<div class="panel box">					
-					<ul id="openmenu">
-						<a href="">
-							<li class="withsub hr">Dog Supplies
-								<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
-						<a href="">
-							<li class="withsub hr">Cat Supplies
-							<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
-						<a href=""><li class="withsub hr">Bird Supplies
-							<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
-						<a href=""><li class="withsub hr">Fish Supplies
-							<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
-						<a href=""><li class="withsub hr">Reptile Supplies
-							<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
-						<a href=""><li class="withsub hr">Small Pets Supplies
-							<div class="menusub box bgwhite">
-								<div class="arrow_box"></div>
-								<ul>
-									<a href="dogfood.htm"><li>Dog Food</li></a>
-									<a href="Treats.htm"><li>Treats & Supplements</li></a>
-									<a href="Hygiene.htm"><li>Hygiene & Grooming</li></a>
-									<a href="Beds.htm"><li>Beds & Cages</li></a>
-									<a href="Collars.htm"><li>Collars, Harnesses & Leashes</li></a>
-									<a href="Healthcare.htm"><li>Healthcare Products</li></a>
-									<a href="Miscellaneous.htm"><li>Miscellaneous</li></a>
-									<div class="clear"></div>
-								</ul>
-								</div><!-- menusub -->
-							</li></a>
+				<div class="panel box">
+					<ul id="openmenu" class="hidden">
+						<a href=""><li class="withsub hr">Dog Supplies</li></a>
+						<a href=""><li class="withsub hr">Cat Supplies</li></a>
+						<a href=""><li class="withsub hr">Bird Supplies</li></a>
+						<a href=""><li class="withsub hr">Fish Supplies</li></a>
+						<a href=""><li class="withsub hr">Reptile Supplies</li></a>
+						<a href=""><li class="withsub hr">Small Pets Supplies</li></a>
 						<a href=""><li class="hr">New Products & Promos</li></a>
 						<a href=""><li>Shop by Brand</li></a>
 						<div class="clear"></div>
 					</ul>
 				</div><!-- panel -->
 				<div class="panel box">
+					<h3 class="bgdark">Types<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
+					<ul id="cart">
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Puppy (All sizes) <i class="dim"> (9)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">XSmall <i class="dim"> (12)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Mini Dog <i class="dim"> (20)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Medium Dog <i class="dim"> (16)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Maxi Dog <i class="dim"> (12)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Giant Dog <i class="dim"> (5)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Puppy Breed (All sizes) <i class="dim"> (4)</i></a></li>
+						<li class="item"><input type="checkbox" checked/><a href="" class="cold">XSmall Breed <i class="dim"> (22)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Mini Breed <i class="dim"> (16)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Medium Breed <i class="dim"> (8)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Maxi Breed <i class="dim"> (8)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Giant Breed <i class="dim"> (8)</i></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div><!-- panel -->
+				<div class="panel box">
+					<h3 class="bgdark">Brands<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
+					<ul id="cart">
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Artemis <i class="dim"> (9)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Butch <i class="dim"> (12)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Eukanuba <i class="dim"> (20)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Iams <i class="dim"> (16)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Happy Dog <i class="dim"> (12)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Pet Botanics <i class="dim"> (5)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Proplan <i class="dim"> (4)</i></a></li>
+						<li class="item"><input type="checkbox" checked/><a href="" class="cold">Royal Canin <i class="dim"> (22)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Taste of The Wild <i class="dim"> (16)</i></a></li>
+						<li class="item"><input type="checkbox" /><a href="" class="cold">Ziwipeak <i class="dim"> (8)</i></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div><!-- panel -->
+				<div class="panel box">
 					<h3 class="bgdark">Shopping Cart<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
 					<ul id="cart">
-						<li class="item"><a href="details.htm" class="cold">1x Royal Canin</a><span>12.35 AED <a href=""><img src="img/x.png" /></a></span></li>
-						<li class="item"><a href="details.htm" class="cold">1x Product 2</a><span>33.00 AED <a href=""><img src="img/x.png" /></a></span></li>
+						<li class="item"><a href="" class="cold">1x Royal Canin</a><span>12.35 AED <a href=""><img src="img/x.png" /></a></span></li>
+						<li class="item"><a href="" class="cold">1x Product 2</a><span>33.00 AED <a href=""><img src="img/x.png" /></a></span></li>
 						<li></li>
 						<li class="white">Shipping<span>7.00 AED</span></li>
 						<li></li>
@@ -160,7 +101,7 @@
 				</div><!-- panel -->
 				<div class="panel box">
 					<h3 class="bgdark">Shipping to Abu Dhabi<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
-					<ul id="cart">
+					<ul id="cart" class="hidden">
 						<li class="dim">deadline</li>
 						<li class="white box cold"><h2>06hrs 58min 07sec</h2></li>
 						<div class="clear"></div>
@@ -168,7 +109,7 @@
 				</div><!-- panel -->
 				<div class="panel box">
 					<h3 class="bgdark">Our Route Schedule<span class="right"><img src="img/arrow-down-white-small.png" /></span></h3>
-					<ul>
+					<ul class="hidden">
 						<li class="hr"><b class="cold">Dubai, Sharjah & Ajman</b><p>Delivery within 2 Days or on the Same Day</p></li>
 						<li class="hr"><b class="cold">Abu Dhabi</b><p>Every Sunday, Tuesday, Thursday & Saturday</p></li>
 						<li class="hr"><b class="cold">Al Ain</b><p>Every Monday & Wednesday</p></li>
@@ -178,25 +119,28 @@
 						<div class="clear"></div>
 					</ul>
 				</div><!-- panel -->
-				<a href=""><img src="img/ads.png"/></a>
 			</div><!-- sidebar -->
 			<div class="main right">
-				<div id="banner" class="box">
-					<img src="img/banner3.png" />
-					<img src="img/banner1.png" />
-					<img src="img/banner2.png" />
-				</div><!-- banner -->	
-				<ul id="featured">
-					<li><img src="img/feature1.png" class="shaded"/></li>
-					<li class="center"><img src="img/feature2.png" class="shaded" /></li>
-					<li><img src="img/feature3.png" class="shaded" /></li>				
-					<div class="clear"></div>
-				</ul><!-- featured -->	
-					<div class="clear"></div>
-				<div class="preview">
-					<h3 class="bgcold">New Products<span class="right"><div class="prev left pointer"></div><div class="next left pointer"></div></span></h3>
+				<div class="breadcrums">
+					<p><img src="img/icon-home.png" /> <a href="home.html" class="cold">Home</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> <a href="category.html" class="cold">Dog Supplies</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> Dog Food</p>
+				</div><!-- breadcrums -->
+				<div class="preview" style="height: 33px">
+					<h3 class="bgcold">
+						Dog Food
+						<span class="right">
+							<a href="subcategory-thumb.html" class="thumb left pointer"></a>
+							<a href="subcategory-list.html" class="list left pointer"></a>
+							<select>
+								<option>Sort by Brand</option>
+								<option>Sort by Name</option>
+								<option>Sort by Price</option>
+							</select>
+						</span>
+					</h3>
+				</div><!-- -->
+				<div id="details" class="box blockwide left" style="padding: 0px; width: 770px;">
 					<ul class="gallery">
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -206,7 +150,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -216,7 +160,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -226,7 +170,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -236,7 +180,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -246,7 +190,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -256,7 +200,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -266,7 +210,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -276,7 +220,7 @@
 							<button class="btn-cart"></button> <button class="btn-details"></button>						
 							<div class="clear"></div>
 						</li>
-						<li class="product-thumb">
+						<li class="product-list">
 							<a href="">
 								<img class="img" src="img/uploads/product.png" />
 								<b>Exo Terra Desert Kit</b>
@@ -287,21 +231,12 @@
 							<div class="clear"></div>
 						</li>	
 					<div class="clear"></div>
-					</ul>
-				</div><!-- -->	
-					<div class="clear"></div>
-				<div class="preview">
-					<h3 class="bgcold">Featured Products<span class="right"><div class="prev left pointer"></div><div class="next left pointer"></div></span></h3>
-					<ul class="gallery">
-						<li><img src="img/product.png" /></li>
-						<li><img src="img/product.png" /></li>
-						<li><img src="img/product.png" /></li>
-						<li><img src="img/product.png" /></li>
-						<li><img src="img/product.png" /></li>		
-					<div class="clear"></div>
-					</ul>
-				</div><!-- -->
-			</div><!-- main -->
+					</ul><!-- gallery -->
+				</div><!-- details -->
+				
+				
+				<div class="clear"></div>
+			</div><!-- main right -->
 		</div><!-- content -->		
 		<div class="clear"></div>
 		<div id="footer">
@@ -333,7 +268,7 @@
 				</ul><!-- list -->
 				<ul class="list">
 					<h3 class="warm">Newsletter Signup</h3>
-					<li><p>Please enter your email adress below. Don’t worry, we won’t spam you</p></li>
+					<li><p>Please enter your email adress below. Donï¿½t worry, we wonï¿½t spam you</p></li>
 					<form id="quicksearch" class="right" style="margin-left: -5px";>
 						<input type="text" placeholder="Email Address" required style="width: 377px;"/>
 						<button type="submit" style="background: black; width: 80px; color:white;">Subscribe</button>

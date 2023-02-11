@@ -8,10 +8,10 @@
 	<div class="wrapper">
 		<div id="header">
 			<div class="main">
-				<a href="home.htm"><img class="left" src="img/logo.png" /></a>
+				<a href="home.html"><img class="left" src="img/logo.png" /></a>
 				<div class="right">
 					<div class="right cart">
-						<p class="right">Welcome Guest! <a href="signin.htm">log-in</a> / <a href="register.htm">register</a></p><div class="clear"></div>
+						<p class="right">Welcome Guest! <a href="signin.html">log-in</a> / <a href="register.html">register</a></p><div class="clear"></div>
 						<img src="img/icon-cart.png" /> Shopping Cart: <a href="">2 items - 52.35 AED <img src="img/arrow-down-black-small.png" /></a>
 					</div><!-- cart -->
 					<div class="clear"></div>
@@ -24,11 +24,11 @@
 					<p>SHOP BY CATEGORY <span class="right"><img src="img/arrow-down-white-small.png" /></span></p>
 				</a><!-- btn_category -->
 				<ul class="left">
-					<li><a href="home.htm" style="border-left: none;">HOME</a></li>
-					<li><a href="signin.htm">SIGN-IN</a></li>
-					<li><a href="register.htm" >REGISTER</a></li>
-					<li><a href="account.htm">MY FAVORITES</a></li>
-					<li><a href="contact.htm">CONTACT US</a></li>
+					<li><a href="home.html" style="border-left: none;">HOME</a></li>
+					<li><a href="signin.html">SIGN-IN</a></li>
+					<li><a href="register.html" >REGISTER</a></li>
+					<li><a href="account.html">MY FAVORITES</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
 					<form id="quicksearch" class="right">
 						<input type="text" placeholder="Product Search" required/>
@@ -88,74 +88,45 @@
 			</div><!-- sidebar -->
 			<div class="main right">
 				<div class="breadcrums">
-					<p><img src="img/icon-home.png" /> <a href="home.htm" class="cold">Home</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> Shopping Cart</p>
+					<p><img src="img/icon-home.png" /> <a href="home.html" class="cold">Home</a> <img src="img/arrow-withsub.png" style="margin-bottom: -5px;"/> Shopping Cart</p>
 				</div><!-- breadcrums -->
 				<div class="preview" style="height: 33px">
-					<h3 class="bgcold">Please Confirm Order (Step 3 of 4)</h3>
+					<h3 class="bgcold">Delivery & Agreement (Step 2 of 4)</h3>
 				</div><!-- -->
-				<div id="details" class="box blockwide">
-					<div class="block left" style="padding: 0px; margin: 0px; min-height: 0px;">
-						<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Personal Details</h3><br>
-						<p class="cold">
-							Name<br>
-							Address<br>
-							Mobile number<br>
-							Email<br>
-						</p>
-					</div><!-- left -->
-					<div class="block right" style="padding: 0px; margin: 0px; min-height: 0px;">
-						<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Delivery Details</h3><br>
-						<p class="cold">
-							Delivery Every 2 weeks<br>
-							Notify by Text Message<br>
-							Message<br>
-						</p>
-					</div><!-- right -->
-					<div class="clear"></div>
-					<br>
-					<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Product Review</h3><br>
-					<table style="width: 730px;">
-						<tr>
-							<td class="hr bgdim">Product</td>
-							<td class="hr bgdim">Variant</td>
-							<td class="hr bgdim">Quantity</td>
-							<td class="hr bgdim">Price</td>
-							<td class="hr bgdim">Sub Total</td>
-						</tr>
-						<tr>
-							<td><p><b class="cold">Maxi Adult</b></p></td>
-							<td><p>4kg - 110.00 AED</p></td>
-							<td><p>1</p></td>
-							<td><p class="cold">110.00 AED</p></td>
-							<td class="warm">110.00 AED</td>
-						</tr>
-						<tr>
-							<td class="hr"><p><b class="cold">Maxi Adult</b></p></td>
-							<td class="hr"><p>4kg - 110.00 AED</p></td>
-							<td class="hr"><p>1</p></td>
-							<td class="hr"><p class="cold">110.00 AED</p></td>
-							<td class="warm hr">110.00 AED</td>
-						</tr>
-						<tr>
-							<td colspan=3></td>
-							<td><p><b class="cold">Shipping</b></p></td>
-							<td class="warm strike">20.00 AED</td>
-						</tr>
-						<tr>
-							<td colspan=3></td>
-							<td><p><b class="cold">Total</b></p></td>
-							<td><h1 class="cold" style="margin: 5px;">220.00 AED</h2></td>
-						</tr>
-						<tr>
-							<td colspan=3></td>
-							<td><p><b class="cold">5% Disc.</b></p></td>
-							<td class="strike">114.00 AED</td>
-						</tr>
-					</table>
-					<div class="clear"></div><br><br><br>
-					<button class="bgwarm right"><h3>CONFIRM ORDER</h3></button>
+				<form>
+				<div id="details" class="box blockwide left" style="padding: 0px; width: 770px;">
+					<div id="sign-in" class="block left">
+						<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Delivery Options</h3><br>
+						<p>Please select delivery option.</p><br>
+						<label class="cold">Delivery Schedule:</label><br>
+						<select style="width: 335px;">
+							<option>Onetime Delivery</option>
+							<option>Every 2 weeks</option>
+							<option>Every 3 weeks</option>
+							<option>Every 4 weeks</option>
+							<option>Every 5 weeks</option>
+						</select><br>
+						<label class="cold">Notification Mode:</label><br>
+						<ul>
+							<li><input type="radio" name="notifyme"/> Text Message </li>
+							<li><input type="radio" name="notifyme" /> Phone Call </li>
+							<li><input type="radio" name="notifyme" /> Email </li>
+						</ul><br>
+						<label class="cold">Message:</label><br>
+						<textarea style="width: 332px; height: 155px;"></textarea><br><br><br>
+						<button class="bgwarm"> Continue <img src="img/arrow-next.png" style="margin-bottom: -7px;"/></button><br><br>
+					</div><!-- sign-in -->
+					
+					<div class="block right">
+						<div class="scrolly" style="width: 350px; height: 360px; margin-left: -30px;">
+							<h3 class="hr dark" style="padding: 0px 0px 10px 0px;">Terms & Conditions:</h3><br>
+							<p class="dark quote">1. All transactions are subject to Cash On Delivery only.<br><br>2. Automatically 5% deduction on minimum amount order as declared.<br><br>3. Pets Line shall not be liable for any loss or expense arising after two days from delivery (or at all once products have been unpacked, affixed and/or otherwise used or applied) after which there shall be deemed to be unqualified acceptance.<br><br>4. The Customer shall not return products without approval and if products are not in brand new and unused condition with undamaged packaging and if two days have passed since the earliest delivery date, Pets Line may otherwise elect to take back products in seal-able condition on such terms considers to be reasonable and pay back accordingly.<br><br>5. To avoid improper handling for the sake of general safety Pets Line excluded its return policy to the following pet products such as pet food (dry and wet), supplements, treats, and medicated products. This policy is sanctioned if the goods has delivered and received by the customer or whoever assigned recipient. We consider any changes and returns if the customer informed Pets Line of wrong order on or before the delivery.<br><br>6. Pets Line shall not be liable nor responsible for any failure to comply with any requirements of the customer or any other person whether relating to manufacture, design, fabrication, installation and/or any other particular intended use of any products.</p><br>
+						</div><!-- scrolly --><br>
+						<input type="checkbox" required>I agree to the Terms and Conditions.
+					</div><!-- right --><br>
 					<div class="clear"></div>
 				</div><!-- details -->
+				</form>
 				
 				
 				<div class="clear"></div>
@@ -191,7 +162,7 @@
 				</ul><!-- list -->
 				<ul class="list">
 					<h3 class="warm">Newsletter Signup</h3>
-					<li><p>Please enter your email adress below. Don’t worry, we won’t spam you</p></li>
+					<li><p>Please enter your email adress below. Donï¿½t worry, we wonï¿½t spam you</p></li>
 					<form id="quicksearch" class="right" style="margin-left: -5px";>
 						<input type="text" placeholder="Email Address" required style="width: 377px;"/>
 						<button type="submit" style="background: black; width: 80px; color:white;">Subscribe</button>
